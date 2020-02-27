@@ -22,7 +22,7 @@ internal class SystemChromeFader(private val activity: Activity) {
 
     fun onDismiss() {
         // set transparent window bg and transparent navigation bar
-        activity.window.decorView.setBackgroundColor(0)
-        activity.window.navigationBarColor = ColorUtils.modifyAlpha(activity.window.navigationBarColor, 0)
+    //    activity.window.decorView.setBackgroundColor(0)
+     //   activity.window.navigationBarColor = ColorUtils.modifyAlpha(activity.window.navigationBarColor, 0)
     }
 }
